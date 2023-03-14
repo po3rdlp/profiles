@@ -1,0 +1,38 @@
+.nav {
+    background-color: #333;
+    /* Warna latar belakang navigation bar */
+    overflow: hidden;
+    display: flex;
+    /* Mengatur tata letak elemen menjadi flex */
+    justify-content: center;
+    /* Menyentuh posisi elemen di tengah */
+}
+
+.nav ul {
+    list-style-type: none;     /* Menghilangkan bullet point dari daftar */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Mengatur tata letak elemen menjadi flex */
+}
+
+.nav li {
+    padding: 16px 20px;
+    /* Padding kiri-kanan pada teks */
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    /* Ukuran font teks */
+    font-weight: bold;
+    /* Ketebalan font teks */
+}
+
+.nav li a:hover {
+    background-color: #4CAF50;
+    /* Warna latar belakang ketika dihover */
+}

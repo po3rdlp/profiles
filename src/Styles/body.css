@@ -1,0 +1,18 @@
+.body-image-container {
+    background-image: url(https://universitasklabat-my.sharepoint.com/personal/s21710452_universitasklabat_onmicrosoft_com/Documents/File/LeonardFile/Picture/100CANON/IMG_8980.JPG);
+    opacity: 0.9; /* transparan gambar 1 tidak transparan 0 transparan */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box1 {
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+/*    border: 1px solid black;  */
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-40%, -40%);
+}
