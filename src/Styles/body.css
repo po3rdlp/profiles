@@ -1,7 +1,7 @@
 .body-image-container {
-    background-image: url(https://universitasklabat-my.sharepoint.com/personal/s21710452_universitasklabat_onmicrosoft_com/Documents/File/LeonardFile/Picture/100CANON/IMG_8980.JPG);
+    background-image: url("../Pic/pexels-tetyana-kovyrina-937980.jpg");
     opacity: 0.9; /* transparan gambar 1 tidak transparan 0 transparan */
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
 }
 
